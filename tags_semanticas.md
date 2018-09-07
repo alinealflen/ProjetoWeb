@@ -37,6 +37,29 @@ Essa tag representa uma seção dentro de um documento HTML que geralmente cont�
    <br> `<p>Aqui vai uma descrição sobre o texto </p>`
  <br>`</section>`
  
+ ### Article
+Essa tag é utilizada para declarar um conteúdo que não precise de outro para fazer sentido em um documento HTML. É recomendado identificar cada tag article com título. Exemplo
+<br>`<article>`
+ <br>   `<h3>Título do artigo 1</h3>`
+   <br>   `<p>Aqui vai uma breve descrição...</p>`
+<br>`</article> `             
+<br>`<article>`
+ <br>   `<h3>Título do artigo 2</h3>`
+  <br>    `<p>Aqui vai uma breve descrição...</p>`
+<br>`</article>`
+
+### Nav
+A tag é utilizada para quando precisarmos representar agrupamentos de links, criados com os elementos `<ul>, <li> e <a>`.
+
+### Aside
+Usada para quando precisamos criar um conteúdo de apoio ao conteúdo principal.Seria um link de uma sugestão de leitura complementar por exemplo.
+
+### Main
+A tag main represente o conteúdo principal e de maior valor dentro da página HTML. Uma página HTML bem construída deve possuir apenas um conteúdo principal, ou seja, uma tag main.
+
+### Figure
+Essa tag é uma marcação para adicionarmos uma figura em um documento HTML, e figcaption serve para adicionarmos a descrição da figura.
+
  ### Footer
 O elemento `<footer>` representa um rodapé de um documento, como a área presente no final de uma página web. Normalmente é utilizado para descrever informações de autoria, como nome e contato do autor, e data de criação do conteúdo.
 
